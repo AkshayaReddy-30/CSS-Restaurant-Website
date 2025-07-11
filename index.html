@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Akshaya’s Kitchen - Authentic Indian Flavors in Hyderabad">
+  <meta name="keywords" content="Indian Restaurant, South Indian Food, Akshaya Kitchen, Hyderabad">
+  <meta name="author" content="Akshaya Reddy">
+  <title>Akshaya’s Kitchen</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #6a1b1a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  background-color: #6a1b1a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('restaurant-banner.jpg');
+  height: 300px;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #6a1b1a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  .hero {
+    height: 200px;
+    font-size: 1.2rem;
+  }
+}
+
+#menu h2 {
+  margin-bottom: 1rem;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.menu-item p {
+  font-size: 1rem;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item h3 {
+  margin: 1rem 0 0.5rem;
+  color: #6a1b1a;
+}
+
+.menu-item p {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive cards */
+@media (max-width: 768px) {
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  color: #6a1b1a;
+  font-size: 1rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  background: gold;
+  color: #6a1b1a;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>Akshaya’s Kitchen</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+<div class="hero">
+  <h2>Welcome to Akshaya’s Kitchen</h2>
+</div>
+<!--Menu Modal-->
+
+<section id="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-container">
+    <div class="menu-item">
+      <h3>Butter Paneer <span class="badge">Bestseller</span></h3>
+      <p>Creamy paneer cooked in rich tomato gravy.</p>
+<p class="price">₹180</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Veg Biryani <span class="badge">Bestseller</span></h3>
+      <p>Fragrant rice with spiced vegetables and herbs.</p>
+<p class="price">₹180</p>
+
+    </div>
+
+    <div class="menu-item">
+      <h3>Masala Dosa</h3>
+      <p>South Indian classic served with chutney & sambar.</p>
+<p class="price">₹80</p>
+
+    </div>
+
+<div class="menu-item">
+  <h3>Gongura Mutton <span class="badge">Bestseller</span></h3>
+  <p>A spicy Andhra delicacy made with tender mutton and tangy sorrel leaves.</p>
+<p class="price">₹200</p>
+
+</div>
+
+<div class="menu-item">
+  <h3>Chicken 65 <span class="badge">Bestseller</span></h3>
+  <p>Crispy fried chicken bites tossed in aromatic spices and curry leaves.</p>
+<p class="price">₹150</p>
+
+</div>
+
+<div class="menu-item">
+  <h3>Pesarattu</h3>
+  <p>Green gram dosa filled with spiced upma, served with chutney.</p>
+<p class="price">₹90</p>
+
+</div>
+
+<div class="menu-item">
+  <h3>Hyderabadi Dum Biryani <span class="badge">Bestseller</span></h3>
+  <p>Authentic layered biryani slow-cooked with marinated chicken and spices.</p>
+<p class="price">₹180</p>
+
+</div>
+
+<div class="menu-item">
+  <h3>Gulab Jamun</h3>
+  <p>Soft milk-solid balls soaked in rose-flavored sugar syrup.</p>
+<p class="price">₹100</p>
+
+</div>
+
+<div class="menu-item">
+  <h3>Filter Coffee <span class="badge">Bestseller</span></h3>
+  <p>Traditional South Indian style brewed coffee with thick milk foam.</p>
+<p class="price">₹80</p>
+
+</div>
+  
+<div class="menu-item">
+  <h3>Paneer Tikka Masala</h3>
+  <p>Grilled paneer cubes in creamy spiced gravy.</p>
+  <p class="price">₹190</p>
+</div>
+
+<div class="menu-item">
+  <h3>Chettinad Chicken Curry</h3>
+  <p>Fiery and flavorful Tamil Nadu-style chicken curry.</p>
+  <p class="price">₹210</p>
+</div>
+
+<div class="menu-item">
+  <h3>Malabar Parotta with Kurma</h3>
+  <p>Layered flatbread served with rich veg or chicken kurma.</p>
+  <p class="price">₹120</p>
+</div>
+
+<div class="menu-item">
+  <h3>Rajma Chawal</h3>
+  <p>Comforting North Indian kidney bean curry with rice.</p>
+  <p class="price">₹130</p>
+</div>
+
+<div class="menu-item">
+  <h3>Fish Fry (Andhra style)</h3>
+  <p>Crispy seared fish with traditional spice rub.</p>
+  <p class="price">₹200</p>
+</div>
+
+<div class="menu-item">
+  <h3>Sambar Vada</h3>
+  <p>Medu vada soaked in hot sambar, topped with onions.</p>
+  <p class="price">₹80</p>
+</div>
+
+<div class="menu-item">
+  <h3>Gobi Manchurian (Dry)</h3>
+  <p>Indo-Chinese crispy cauliflower tossed in tangy sauce.</p>
+  <p class="price">₹120</p>
+</div>
+
+<div class="menu-item">
+  <h3>Corn Cheese Balls</h3>
+  <p>Crispy balls filled with cheesy corn filling.</p>
+  <p class="price">₹100</p>
+</div>
+
+<div class="menu-item">
+  <h3>Rasgulla</h3>
+  <p>Soft and spongy Bengali sweet in syrup.</p>
+  <p class="price">₹90</p>
+</div>
+
+<div class="menu-item">
+  <h3>Tender Coconut Payasam</h3>
+  <p>Creamy dessert with fresh coconut, milk, and jaggery.</p>
+  <p class="price">₹100</p>
+</div>
+
+<div class="menu-item">
+  <h3>Mango Lassi</h3>
+  <p>Cool yogurt drink blended with mango pulp.</p>
+  <p class="price">₹80</p>
+</div>
+
+<div class="menu-item">
+  <h3>Rose Milk</h3>
+  <p>Chilled sweet rose-flavored milk drink.</p>
+  <p class="price">₹60</p>
+</div>
+</div>
+</section>
+<!--About-->
+<section id="about" style="padding: 2rem; text-align: center;">
+  <h2>About Us</h2>
+  <p>At Akshaya’s Kitchen, we bring traditional Indian flavors to your table with love and care. Whether you're craving spicy curries or comforting dosas, we’ve got something special for every taste bud.</p>
+</section>
+<!--Contact-->
+<section id="contact" style="padding: 2rem; text-align: center;">
+  <h2>Contact Us</h2>
+  <p>📍 Location: Hyderabad, India<br>
+     📞 Phone: +91-9876543210<br>
+     📧 Email: akshaya@akshayaskitchen.com</p>
+<form style="max-width: 400px; margin: auto;">
+  <label for="name">Name</label>
+  <input id="name" type="text" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0;">
+
+  <label for="email">Email</label>
+  <input id="email" type="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0;">
+
+  <label for="message">Message</label>
+  <textarea id="message" placeholder="Your Message" required style="width: 100%; padding: 10px; margin: 10px 0;"></textarea>
+
+  <button type="submit" style="padding: 10px 20px; background-color: #6a1b1a; color: white; border: none;">Send</button>
+</form>
+</section>
+  <footer>
+    <p>© Akshaya’s Kitchen</p>
+ <p>
+    <a href="https://www.instagram.com/akshayaskitchen" target="_blank" style="color:white;">Instagram</a> |
+    <a href="https://www.facebook.com/akshayaskitchen" target="_blank" style="color:white;">Facebook</a>
+  </p>
+  </footer>
+</body>
+</html>
