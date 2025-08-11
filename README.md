@@ -1,43 +1,39 @@
 # Restaurant-Website
-# ✅ My To-Do List (JavaScript Project)
+# 🍽️ Akshaya’s Kitchen
 
-This is a simple and clean **To-Do List app** built using **HTML, CSS, and JavaScript**.
+**Akshaya’s Kitchen** is a responsive and modern restaurant website built using **HTML** and **CSS**.  
+It showcases a delicious menu, an about section, and contact details for a fictional Indian restaurant located in Hyderabad.
 
 ---
 
 ## ✨ Features
-
-- Add new tasks  
-- Mark tasks as completed  
-- Delete tasks  
-- Save tasks in your browser (using localStorage)  
-- Filter tasks: All, Completed, Pending  
-
----
-
-## 💻 How to Run
-
-1. Download or copy the code  
-2. Open the `index.html` file in your browser  
-3. Start adding your tasks! ✅
+- **Responsive Design** – Works smoothly on desktop, tablet, and mobile devices.
+- **Beautiful Hero Section** – Eye-catching banner with welcome text.
+- **Interactive Menu** – Grid-style menu with prices, badges for bestsellers, and hover effects.
+- **About Section** – Short description about the restaurant.
+- **Contact Section** – Includes location, phone, email, and a contact form.
+- **Social Links** – Direct links to Instagram and Facebook.
 
 ---
 
-## 🛠 Tech Used
-
-- HTML  
-- CSS  
-- JavaScript  
-
----
-
-## 🙋‍♀️ Made By
-
-**Akshaya Reddy** ❤️  
-📍 India
+## 🛠️ Technologies Used
+- **HTML5** – Semantic and accessible structure.
+- **CSS3** – Custom styling with responsive media queries.
+- **Google Fonts** – *Poppins* font for a clean and modern look.
 
 ---
 
-## 📄 License
+## 📂 Project Structure
 
-Free to use for learning and practice!
+├── index.html # Main HTML file
+├── favicon.png
+└── README.md
+
+---
+
+📬 Contact
+● 📍 Location: Hyderabad, India
+● 📞 Phone: +91-9876543210
+● 📧 Email: akshaya@akshayaskitchen.com
+● 🌐 Instagram: @akshayaskitchen
+● 🌐 Facebook: Akshaya’s Kitchen
